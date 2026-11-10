@@ -1,1 +1,2 @@
-alert("Добро пожаловать на мою страницу!");git add index.html assets/js/main.js
+
+console.log("Добро пожаловать на наш сайт!");
