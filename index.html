@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -6,64 +7,63 @@
 
     <title>My Project</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap"
-          rel="stylesheet">
-
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
     <header class="header">
         <div class="container">
             <h1>My Project</h1>
 
             <nav class="navigation">
-                <a href="#">Главная</a>
-                <a href="#">О проекте</a>
-                <a href="#">Контакты</a>
+                <a href="#home">Главная</a>
+                <a href="#about">О проекте</a>
+                <a href="#team">Команда</a>
             </nav>
         </div>
     </header>
 
-    <!-- Main content -->
-    <main class="main">
-        <div class="container">
-
-            <section class="welcome">
+    <main>
+        <section class="welcome" id="home">
+            <div class="container">
                 <h2>Добро пожаловать!</h2>
-
                 <p>
-                    Это мой учебный проект.
-                    Здесь я изучаю Git и основы веб-разработки.
+                    Это наш учебный проект.
+                    Здесь мы изучаем Git и основы веб-разработки.
                 </p>
-            </section>
+            </div>
+        </section>
 
-            <!-- Team section -->
-            <section class="team">
-                <h2>Участники команды</h2>
+        <section class="about container" id="about">
+            <h2>О проекте</h2>
+            <p>
+                Мы учимся работать с GitHub, создавать сайты
+                и разрабатывать проекты вместе.
+            </p>
+        </section>
 
-                <p>
-                    Здесь представлены страницы участников
-                    нашего командного проекта.
-                </p>
+        <section class="team container" id="team">
+            <h2>Участники команды</h2>
 
-                <ul>
-                  <li>
-    <a href="PR3/index.html">
-        Құрбанәли — Сүйікті жаттығуым: становая тяга
-    </a>
-</li>
-                </ul>
-            </section>
-        </div>
+            <div class="team-list">
+                <div class="team-card">
+                    <h3>Құрбанәли</h3>
+                    <p>Участник команды</p>
+                    <a href="PR3/index.html">
+                        Любимое упражнение: становая тяга
+                    </a>
+                </div>
+
+                <div class="team-card">
+                    <h3>Ерсултан</h3>
+                    <p>Руководитель команды</p>
+                    <a href="#about">О проекте</a>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <p>© 2026 My Project. Все права защищены.</p>
