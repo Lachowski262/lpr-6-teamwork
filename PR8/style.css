@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Құрбанәли — Любимое упражнение</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>Страница участника</h1>
+
+            <nav class="navigation">
+                <a href="../index.html">Главная</a>
+                <a href="#about">Обо мне</a>
+                <a href="#exercise">Любимое упражнение</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <div class="container">
+                <h2>Привет! Я Құрбанәли</h2>
+                <p>Участник команды My Project</p>
+            </div>
+        </section>
+
+        <section class="about container" id="about">
+            <h2>Обо мне</h2>
+            <p>
+                Меня зовут Құрбанәли. Я интересуюсь спортом,
+                физической подготовкой и силовыми тренировками.
+                Мне нравится развивать силу и выносливость.
+            </p>
+        </section>
+
+        <section class="exercise container" id="exercise">
+            <h2>Моё любимое упражнение</h2>
+
+            <div class="exercise-card">
+                <h3>Становая тяга</h3>
+
+                <p>
+                    Становая тяга — это силовое упражнение,
+                    во время которого человек поднимает штангу
+                    с пола до положения стоя.
+                </p>
+
+                <h3>Какие мышцы работают?</h3>
+
+                <ul>
+                    <li>Мышцы спины</li>
+                    <li>Ягодичные мышцы</li>
+                    <li>Мышцы задней поверхности бедра</li>
+                    <li>Мышцы ног и корпуса</li>
+                </ul>
+
+                <h3>Почему мне нравится это упражнение?</h3>
+
+                <p>
+                    Мне нравится становая тяга, потому что
+                    она помогает развивать силу, укреплять мышцы
+                    и улучшать общую физическую подготовку.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 My Project. Құрбанәли.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
