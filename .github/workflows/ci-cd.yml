@@ -1,3 +1,4 @@
+
 name: CI/CD Pipeline
 
 on:
@@ -19,3 +20,11 @@ jobs:
 
       - name: Test
         run: echo "Tests passed"
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy
+        run: echo "Application deployed successfully"
